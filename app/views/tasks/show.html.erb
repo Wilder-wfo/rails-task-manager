@@ -15,4 +15,5 @@
 <hr>
 <%= link_to tasks_path do %>
   <i class="fa fa-history"></i> Back to list
-<% end %>
+<% end %> ||
+<%= link_to "Borrar", task_path(@task), method: :delete %>
